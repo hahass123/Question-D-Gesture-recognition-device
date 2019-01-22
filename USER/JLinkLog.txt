@@ -1,0 +1,27 @@
+
+T0DF4 000:299 SEGGER J-Link V4.96d Log File (0001ms, 0272ms total)
+T0DF4 000:299 DLL Compiled: Jan 29 2015 11:45:37 (0001ms, 0272ms total)
+T0DF4 000:299 Logging started @ 2018-07-23 05:31 (0001ms, 0272ms total)
+T0DF4 000:300 JLINK_SetWarnOutHandler(...) (0000ms, 0272ms total)
+T0DF4 000:300 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Oct  6 2017 16:38:28
+Hardware: V9.40
+S/N: 36410082
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash  returns O.K. (0267ms, 0539ms total)
+T0DF4 000:567 JLINK_SetErrorOutHandler(...) (0000ms, 0539ms total)
+T0DF4 000:567 JLINK_ExecCommand("ProjectFile = "C:\Users\z\Desktop\STM32程序\方案2.6按键采值\USER\JLinkSettings.ini"", ...)  returns 0x00 (0002ms, 0541ms total)
+T0DF4 000:577 JLINK_ExecCommand("Device = STM32F103ZE", ...)Device "STM32F103ZE" selected.  returns 0x00 (0004ms, 0545ms total)
+T0DF4 000:581 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0545ms total)
+T0DF4 000:581 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 0545ms total)
+T0DF4 000:581 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0545ms total)
+T0DF4 000:581 JLINK_GetFirmwareString(...) (0000ms, 0545ms total)
+T0DF4 000:595 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0545ms total)
+T0DF4 000:595 JLINK_GetCompileDateTime() (0000ms, 0545ms total)
+T0DF4 000:599 JLINK_GetFirmwareString(...) (0000ms, 0545ms total)
+T0DF4 000:601 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 0545ms total)
+T0DF4 000:610 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0003ms, 0548ms total)
+T0DF4 000:613 JLINK_SetSpeed(20000) (0001ms, 0549ms total)
+T0DF4 000:614 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG> (0114ms, 0663ms total)
+T0DF4 004:304 JLINK_Close() (0002ms, 0665ms total)
+T0DF4 004:304  (0002ms, 0665ms total)
+T0DF4 004:304 Closed (0002ms, 0665ms total)
